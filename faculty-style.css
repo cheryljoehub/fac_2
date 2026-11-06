@@ -86,19 +86,23 @@ BACK BUTTON
 
 #backBtn{
 
-    position:fixed;
+    position:fixed !important;
 
-    top:24px;
+    bottom:24px !important;
 
-    left:24px;
+    left:24px !important;
+
+    top:auto !important;
+
+    right:auto !important;
 
     z-index:10;
 
-    width:46px;
+    width:80px;
 
-    height:46px;
+    height:80px;
 
-    border-radius:50%;
+    border-radius:90%;
 
     border:1.5px solid var(--glass-border);
 
@@ -122,9 +126,9 @@ BACK BUTTON
 
 #backBtn svg{
 
-    width:20px;
+    width:32px;
 
-    height:20px;
+    height:32px;
 
 }
 
@@ -994,8 +998,8 @@ h1,h2,h3,.facultyInfo h3,#profileCard h2{
 #backBtn{
     top:24px;
     bottom:auto;
-    width:54px;
-    height:54px;
+    width:80px;
+    height:80px;
     border:1px solid rgba(146,175,201,.3);
     background:rgba(11,26,42,.78);
     color:var(--accent-soft);
